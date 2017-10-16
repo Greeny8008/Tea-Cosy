@@ -50,7 +50,7 @@ a {
 
 /*Banner Section */
 
-.banner {
+#banner {
   padding-top: 70px;
   background-image: url("../images/banner-img.jpg");
   background-size: cover;
@@ -65,4 +65,81 @@ a {
   display: inline-block;
   background-color: black;
   width: 100%;
+}
+
+/*Tea of the month section */
+
+#tea-of-the-month {
+  justify-content: center;
+  padding: 0px 50px 70px 50px;
+  width: auto;
+  display: block;
+}
+
+.container {
+display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tea-type {
+  display: inline-block;
+
+}
+
+.tea-type img {
+  width: 300px;
+  height:200px;
+  padding: 20px;
+}
+
+.tea-type span {
+  display: block;
+}
+
+/* Location Section */
+
+#location {
+  display: block;
+  background-image: url("../images/img-locations-background.jpg");
+  background-size: cover;
+  height: 500px;
+  width: auto;
+  margin: 0px 50px;
+}
+
+.header {
+  display: block;
+  text-align: center;
+  padding-top: 70px;
+}
+
+
+.address {
+  display: flex;
+  justify-content: center;
+
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: auto;
+  padding: 20px;
+  margin: 20px;
+  width: 300px;
+}
+
+/*Footer section*/
+
+footer{
+  height: 200px;
+  width: auto;
+  padding-top: 20px;
+}
+
+.copyright {
+  text-align:left;
+  padding: 20px 0px 0px 20px;
 }
